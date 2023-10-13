@@ -1,0 +1,23 @@
+{
+  "ci": false,
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.8.1",
+  "granularPathspec": false,
+  "forcePublish": true,
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "publish": {
+      "allowBranch": "main",
+      "message": "chore(release): publish %s",
+      "conventionalCommits": true,
+      "createRelease": "github"
+    }
+  },
+  "ignoreChanges": [
+    "packages/*"
+  ]
+}
