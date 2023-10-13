@@ -28,6 +28,6 @@ export default {
     node: '>= 14',
   },
   publishConfig: {
-    access: 'public',
+    "registry": "https://npm.pkg.github.com"
   },
 };
